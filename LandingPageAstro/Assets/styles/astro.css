@@ -423,16 +423,14 @@ to align it properly */
 
 	.section-2 .text{
 		display: inline;
-		font-family: sans-serif;
-		font-size: 3vw;
+		font: 3vw PetitaBold;
 		font-weight: 100;
 		color: #FFFFFF;
 	}
 
 	.section-2 p{
 		color: #8B9AB5;
-		font-family: 'Lato', sans-serif;
-		font-size: 1.5vw;
+		font: 1.5vw ModernSans-Light;
 		padding-left: 0.9rem;
 		margin-top: 7vh;
 		margin-bottom: 7vh;
@@ -554,15 +552,13 @@ to align it properly */
 	}
 	.section-2 .text{
 		display: inline;
-		font-family: sans-serif;
-		font-size: 0.8rem;
+		font: 0.8rem PetitaBold;
 		font-weight: 100;
 		color: #FFFFFF;
 	}
 	.section-2 p{
 		color: #8B9AB5;
-		font-family: 'Lato', sans-serif;
-		font-size: 8px;
+		font: 8px ModernSans-Light;
 		padding-left: 0.3rem;
 		margin-top: 10px;
 		margin-right: 0;
@@ -683,8 +679,7 @@ to align it properly */
 		top: 10vh;
     	left: 5vw;
 		display: inline-block;
-		font-family: sans-serif;
-		font-size: 3rem;
+		font: 3rem PetitaBold;
 		font-weight: 100;
 		margin-left: 10px;
 	}
@@ -703,8 +698,7 @@ to align it properly */
 		width: 70vw;
 		margin-left: 1vw;
 		color: #8B9AB5;
-		font-family: 'Lato', sans-serif;
-		font-size: 1.25rem;
+		font: 1.25rem ModernSans-Light;
 		margin-top: 5vh;
 		line-height: 1.75rem;
 	}
@@ -757,8 +751,7 @@ to align it properly */
 		top: 8.293460925039872vh;
     left: 8vw;
 		display: inline-block;
-		font-family: sans-serif;
-		font-size: 0.8rem;
+		font:0.8rem PetitaBold;
 		font-weight: 100;
 	}
 	.section-3 .circle{
@@ -774,8 +767,7 @@ to align it properly */
 		width: 70vw;
 		margin-left: 1vw;
 		color: #8B9AB5;
-		font-family: 'Lato', sans-serif;
-		font-size: 8px;
+		font: 8px ModernSans-Light;
 		margin-top: -12.5px;
 		line-height: 10px;
 	}
@@ -851,10 +843,9 @@ to align it properly */
 }
 
 .section-4 h1{
-	font-size: 3rem;
 	color: white;
+	font: 3rem PetitaBold;
 	font-weight: 200;
-	font-family: sans-serif;
 	margin-top:2vh;
 	width: 100%;
 	text-align: center;
@@ -865,11 +856,11 @@ to align it properly */
 	position: relative;
 	color: #8B9AB5;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.25rem;
+	font: 1.25rem ModernSans-Light;
 	width: 45vw;
 	margin-top: 4vh;
 	margin-left: 25%;
+	line-height: 1.75rem;
 }
 
 .cards{
@@ -932,7 +923,7 @@ to align it properly */
 
 .section-5{
 	z-index: 5;
-    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 9, 0.07) 41%, rgba(10, 10, 10, 0.05) 74%, rgba(0, 0, 0, 1) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 9, 0.07) 41%, rgba(10, 10, 10, 0.05) 74%, rgba(0, 0, 0, 1) 104%) 0% 0% no-repeat padding-box;
     position: relative;
     height: auto;
     width: 100%;
@@ -942,9 +933,9 @@ to align it properly */
 
 .section-5 img{
 	position: relative;
-    top: 0;
-    width: auto;
-    height: 235vh;
+  top: 0;
+	width: auto;
+  height: 255vh;
 	mix-blend-mode: color;
 }
 
@@ -1162,3 +1153,84 @@ to align it properly */
 	width: 43vw;
 	margin-left: 35px;
 }
+
+.section-6{
+		display: flex;
+		justify-content: center;
+		z-index: 5;
+    position: relative;
+    height: auto;
+    width: 100%;
+		top: 124vh;
+		background: transparent linear-gradient(180deg, #000010 0%, #09090912 15%, #00000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.section-6 .drop{
+	position: absolute;
+	top: -1px;
+	background-color: #000;
+	height: 1px;
+	width: 100%;
+}
+
+.section-6 img{
+	position: relative;
+  top: 0;
+	width: auto;
+	height: 87vh;
+	mix-blend-mode: color;
+}
+
+.section-6 .circle{
+	position: absolute;
+	top:-7px;
+	transform: rotate(180deg);
+	background-image: linear-gradient( #48DBD8E8, #0287D0E6);
+	z-index: 50;
+}
+
+.section-6 h1{
+	position: absolute;
+	top:1vh;
+	width: 100%;
+	text-align: center;
+	font:3rem PetitaBold;
+	color: white;
+}
+
+.section-6 p{
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	color: #8B9AB5;
+	font: 1.25rem ModernSans-Light;
+	font-weight: 100;
+	top: 17vh;
+	letter-spacing: 0px;
+	line-height: 1.75rem;
+}
+
+.section-6 .btn2{
+		position: absolute;
+		outline: none;
+		background: none;
+		border: 2px solid #707070;
+		bottom: 60vh;
+		height: 8vh;
+		top: 48vh;
+		margin-top: 10px;
+		transform-style: preserve-3d;
+		transform: perspective(1000px);
+	}
+	.section-6 .btn2:hover{
+		border-color: #FFFFFF;
+		transition: 0.4s ease-in-out;
+	}
+	.section-6 .btn2:hover > .btntext{
+	color: #FFFFFF;
+	transition: 0.4s ease-in-out;
+	}
+	.section-6 .btn2 .btntext{
+		transform: translateZ(20px);
+	}
+	
