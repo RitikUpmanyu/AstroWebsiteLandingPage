@@ -1233,4 +1233,22 @@ to align it properly */
 	.section-6 .btn2 .btntext{
 		transform: translateZ(20px);
 	}
-	
+/*basically (width of img/height of image)*height specified in vh */	
+@media (min-width: 208vh){
+	.section-6 img{
+		width: 100vw;
+		height: auto;
+	}
+}
+@media (min-width: 218.8vh){
+	.section-5 img{
+		width: 100vw;
+		height: auto;
+	}
+}
+@media (min-width: 206vh){
+	.section-3 img{
+		width: 100vw;
+		height: auto;
+	}
+}
