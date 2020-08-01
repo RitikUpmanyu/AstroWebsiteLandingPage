@@ -384,6 +384,16 @@ to align it properly */
 	}
 }
 
+
+	.circle{
+		height: 30px; 
+		width: 60px; 
+		border-radius: 30px 30px 0 0;
+		transform: rotate(90deg);
+		background-image: linear-gradient(-90deg, #48DBD8E8, #0287D0E6);
+		display: inline-block;
+	}
+
 @media (min-width: 501px){
 	.section-2{
 		scroll-snap-align: start;
@@ -435,15 +445,6 @@ to align it properly */
 		margin-top: 7vh;
 		margin-bottom: 7vh;
 		line-height: 1.75vw;
-	}
-
-	.circle{
-		height: 30px; 
-		width: 60px; 
-		border-radius: 30px 30px 0 0;
-		transform: rotate(90deg);
-		background-image: linear-gradient(-90deg, #48DBD8E8, #0287D0E6);
-		display: inline-block;
 	}
 
 	.myBtn2{
@@ -565,7 +566,7 @@ to align it properly */
 		padding-right: 0;
 		line-height: 10px;
 	}
-	.circle{
+	.section-2 .circle{
 		height: 10px; 
 		width: 20px; 
 		border-radius: 10px 10px 0 0;
@@ -941,16 +942,16 @@ to align it properly */
 
 .section-5 .circle{
 	position: absolute;
-	top: 20vh;
-	left: 6.75vw;
+	top: 132px;
+	left: 80px;
 	display: inline-block;
 }
 
 .section-5 h1{
 		align-items: center;
 		position: absolute;
-		top: 13.25vh;
-    	left: 10.5vw;
+		top: 87px;
+    left: 135px;
 		display: inline-block;
 		font:3rem PetitaBold;
 		font-weight: 100;
@@ -963,12 +964,12 @@ to align it properly */
 	z-index: 20;
 	position: absolute;
 	top:33.25vh;
-	left: 7.5vw;
+	left: 93px;
 	color: #8B9AB5;
 	font: 1.25rem ModernSans-Light;
 	margin-top: 0;
 	line-height: 1.75rem;
-	width: 50vw;
+	width: 650px;
 	font-weight: 100;
 }	
 
@@ -978,7 +979,7 @@ to align it properly */
 	font: 147px DINPro-Light;
 	letter-spacing: 0;
 	position: absolute;
-	left: 6.75vw;
+	left: 85px;
 	top: 45.25vh;
 }
 
@@ -989,7 +990,7 @@ to align it properly */
 	font-weight: 100;
 	position: absolute;
 	top: 69.25vh;
-	left: 15.6vw;
+	left: 205px;
 	letter-spacing: 0.4px;
 	margin-left: 35px;
 }
@@ -999,11 +1000,11 @@ to align it properly */
 	z-index: 20;
 	position: absolute;
 	top: 83vh;
-	left: 15.6vw;
+	left: 205px;
 	font: 1.25rem DINPro-Medium;
 	margin-top: 0;
 	line-height: 1.75rem;
-	width: 44vw;
+	width: 611px;
 	font-weight: 100;
 	margin-left: 35px;
 }
@@ -1014,7 +1015,7 @@ to align it properly */
 	font: 147px DINPro-Light;
 	letter-spacing: 0;
 	position: absolute;
-	left: 35vw;
+	right: 720px;
 	top: 80.25vh;
 }
 
@@ -1025,7 +1026,7 @@ to align it properly */
 	position: absolute;
 	font:1.75rem DINPro-Light;
 	top: 105vh;
-	left: 45.5vw;
+	right: 570px;
 	letter-spacing: 0.4px;
 	margin-left: 35px;
 }
@@ -1035,13 +1036,12 @@ to align it properly */
 	z-index: 20;
 	position: absolute;
 	top: 118.25vh;
-	left: 45.5vw;
+	right: 85px;
 	font: 1.25rem DINPro-Medium;
 	margin-top: 0;
 	line-height: 1.75rem;
-	width: 50vw;
+	width: 611px;
 	font-weight: 100;
-	width: 43vw;
 	margin-left: 35px;
 }
 
@@ -1051,7 +1051,7 @@ to align it properly */
 	font: 147px DINPro-Light;
 	letter-spacing: 0px;
 	position: absolute;
-	left: 6.75vw;
+	left: 85px;
 	top: 115.25vh;
 }
 
@@ -1062,7 +1062,7 @@ to align it properly */
 	font-weight: 100;
 	position: absolute;
 	top: 139.5vh;
-	left: 16.9vw;
+	left: 220px;
 	letter-spacing: 0.4px;
 	margin-left: 35px;
 }
@@ -1076,8 +1076,8 @@ to align it properly */
 	margin-top: 0;
 	line-height: 1.75rem;
 	font-weight: 100;
-	width: 43vw;
-	left: 16.9vw;
+	width: 611px;
+	left: 220px;
 	letter-spacing: 0.4px;
 	margin-left: 35px;
 }
@@ -1088,7 +1088,7 @@ to align it properly */
 	font: 147px DINPro-Light;
 	letter-spacing: 2.03px;
 	position: absolute;
-	left: 35vw;
+	right: 720px;
 	top: 150.25vh;
 }
 
@@ -1099,7 +1099,7 @@ to align it properly */
 	font-weight: 100;
 	position: absolute;
 	top: 174.5vh;
-	left: 45.5vw;
+	right: 430px;
 	letter-spacing: 0.4px;
 	margin-left: 35px;
 }
@@ -1109,12 +1109,12 @@ to align it properly */
 	z-index: 20;
 	position: absolute;
 	top: 188vh;
-	left: 45.5vw;
+	right: 85px;
 	font: 1.25rem DINPro-Medium;
 	margin-top: 0;
 	line-height: 1.75rem;
 	font-weight: 100;
-	width: 43vw;
+	width: 611px;
 	margin-left: 35px;
 }
 
@@ -1124,7 +1124,7 @@ to align it properly */
 	font: 147px DINPro-Light;
 	letter-spacing: 2.03px;
 	position: absolute;
-	left: 6.75vw;
+	left: 85px;
 	top: 185.25vh;
 }
 
@@ -1135,7 +1135,7 @@ to align it properly */
 	font-weight: 100;
 	position: absolute;
 	top: 209.5vh;
-	left: 16.9vw;
+	left: 230px;
 	letter-spacing: 0.4px;
 	margin-left: 35px;
 }
@@ -1145,13 +1145,58 @@ to align it properly */
 	z-index: 20;
 	position: absolute;
 	top: 222.6vh;
-	left: 16.9vw;
+	left: 230px;
 	font: 1.25rem DINPro-Medium;
 	margin-top: 0;
 	line-height: 1.75rem;
 	font-weight: 100;
-	width: 43vw;
+	width:611px;
 	margin-left: 35px;
+}
+
+@media (max-width: 970px){
+	.section-5 .text-1, .section-5 .text-3,
+	.section-5 .text-5, .section-5 .heading-1,
+	.section-5 .heading-3, .section-5 .heading-5,
+	.section-5 .text-2, .section-5 .text-4, 
+	.section-5 .heading-2, .section-5 .heading-4{
+		right: unset;
+		left: 25vw;
+	}
+
+	.section-5 .text-1,	.section-5 .text-2,
+	.section-5 .text-3,	.section-5 .text-4, 
+	.section-5 .text-5{
+		width: 55vw;
+	}
+
+	.section-5 .number-2, .section-5 .number-4,
+	.section-5 .number-1, .section-5 .number-3,
+	.section-5 .number-5{
+		right: unset;
+		left: 9vw;
+	}
+
+	.section-5 .text-0{
+		width: 75vw;
+		left: 4vw;
+	}
+
+	.section-5 .circle{
+		left: 2vw;
+	}
+
+	.section-5 h1{
+		left:60px;
+	}
+}
+
+@media (max-width: 700px){
+	.section-5 .number-2, .section-5 .number-4,
+	.section-5 .number-1, .section-5 .number-3,
+	.section-5 .number-5{
+		left: 2vw;
+	}
 }
 
 .section-6{
