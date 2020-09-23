@@ -51,6 +51,9 @@ $(document).ready(function(){
 	var rectangle5 = $('#rectangle5');
 	var rectangle6 = $('#rectangle6');
 	var section3 = $('.section-3');
+	//new code
+	var section5 = $('.section-5');
+	var social = $('#social');
 
 	$(window).on('scroll', function() {
 		var st = $(this).scrollTop();
@@ -94,6 +97,19 @@ $(document).ready(function(){
 			rectangle6.removeClass('rectanglebig', {duration:500});
 			rectangle1.removeClass('rectanglebig', {duration:500});
 			rectangle3.addClass('rectanglebig', {duration:500});}
+	
+		if(st>section5.position().top-100){
+			social.css({
+				'display' : 'none'
+			})
+		}
+		if(st<section5.position().top-100){
+			social.css({
+				'display' : 'block'
+			})
+		}
+
+	
 	});
 });
 
